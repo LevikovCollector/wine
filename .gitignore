@@ -1,0 +1,6 @@
+env/
+.vscode/
+__pycache__/
+wine/.replit
+wine/index.html
+../.env
