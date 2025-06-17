@@ -4,3 +4,4 @@ __pycache__/
 wine/.replit
 wine/index.html
 ../.env
+.env
