@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
     rendered_page = template.render(
         company_age=f"{company_age} {get_year_word(company_age)}",
-        product_info=create_product_carts(excel_data_df)
+        product_carts=create_product_carts(excel_data_df)
     )
 
     with open('index.html', 'w', encoding="utf8") as file:
